@@ -1,0 +1,61 @@
+
+.input input{
+    border-radius: 5px;
+    background-color: rgb(246, 240, 240);
+    color: rgb(23, 24, 24);
+    width:200px;
+    margin-top: 30px;
+    outline: none;
+}
+.role select{
+    border-radius: 5px;
+    width:200px;
+    background-color: rgb(246, 240, 240);
+}
+.btn-cont{
+    width:200px;
+    font-size:18px;
+    font-weight: bold;
+}
+.btn-cont:hover{
+   background-color:rgb(4, 68, 77)
+}
+
+ body{
+     background:url("./back.jpeg") no-repeat center center fixed;
+    opacity: 0.9;
+
+}  
+
+.login-box{
+    width: 300px;
+    height:300px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.login-box input{
+    margin-bottom: 20px;
+}
+.users{
+    width: 50%;
+    margin-bottom: 10px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #e2deeb;
+    font-size: 16px;
+ 
+    
+}
+.contant{
+    height: 140px;
+}
+option{
+    color:black;
+}
